@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("button-10s").addEventListener("click", function() {
       updateTime(10);
     });
+
+    document.getElementById("button-15s").addEventListener("click", function() {
+      updateTime(15);
+    });
   
     document.getElementById("button-20s").addEventListener("click", function() {
         updateTime(20);
@@ -32,6 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("button-1m").addEventListener("click", function() {
       updateTime(60);
     });
+
+    document.getElementById("button-2m").addEventListener("click", function() {
+      updateTime(120);
+    });
   
     document.getElementById("button-3m").addEventListener("click", function() {
         updateTime(180);
@@ -44,9 +52,17 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("button-5m").addEventListener("click", function() {
       updateTime(300);
     });
+
+    document.getElementById("button-7m").addEventListener("click", function() {
+      updateTime(420);
+    });
   
     document.getElementById("button-9m").addEventListener("click", function() {
       updateTime(540);
+    });
+
+    document.getElementById("button-1h").addEventListener("click", function() {
+      updateTime(3600);
     });
   });
   
